@@ -1,7 +1,7 @@
 $(() => {
     var isTableLoaded = false;
     var myId;
-    const SERVER = 'http://cupid.cse.lehigh.edu:4041';
+    const SERVER = '';
     var myusername;
     var isLoggedIn = false;
     var clickedLetters = [];
