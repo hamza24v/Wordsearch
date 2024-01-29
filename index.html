@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Word Search Game</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <div id="container" style="background-color: aliceblue;
+  ">
+    <!--header-->
+    <div id="header">
+      <div>
+        <h1 style="margin:auto">Welcome to Wordsearch</h1>
+        <h4 id = "theme" style="margin-bottom:10px">Theme: </h4>
+      </div>
+      <div id="loginEntry" style="margin-top:10px">
+        <label >User Name: </label>
+        <input id="username" type="text"/>
+        <button id="login"> Login</button>
+      </div>
+    </div>
+
+    <div id="content">
+      <!--grid-->
+      <div id="gridDiv" >
+        <table id="grid" style="max-width: 100%">
+        </table>
+      </div>
+
+      <!--rightcol-->
+      <div id="rightcol">
+        <button id="submit">Submit Word</button>
+        <h3 id="lead">Leaderboards</h3>
+        <div class= "scoreboardheader">
+          <p style="margin-bottom:3px">Name</p>
+          <p style="margin-bottom:3px">Score</p>
+        </div>
+        
+        <div id="leaderboard">
+          <table id="leaders" style="width: 100%">
+
+          </table>
+          <ol class="userinfo" id="players"></ol>
+        </div>
+        <h3 style="font-weight: bold; margin-bottom: 5px">Chatbox</h3>
+        <div id="chatbox">
+          
+          
+          <ul id="messages"></ul>
+        </div>
+        <div>
+          <input id="chat" type="text" placeholder="Enter message">
+          <button id="send">Send</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+  <script src="js/scripts.js"></script>
+  
+</body>
+
+</html>
