@@ -1,7 +1,7 @@
 $(() => {
     var isTableLoaded = false;
     var myId;
-    const SERVER = '';
+    const SERVER = 'http://localhost:3000';
     var myusername;
     var isLoggedIn = false;
     var clickedLetters = [];

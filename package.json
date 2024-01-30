@@ -1,0 +1,25 @@
+{
+  "name": "wordsearch",
+  "version": "1.0.0",
+  "description": "a multiplayer  wordsearch  game",
+  "main": "backend/app.js",
+  "scripts": {
+    "start":  "node backend/app.js backend/assets/statesout.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamza24v/Wordsearch.git"
+  },
+  "author": "hamza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamza24v/Wordsearch/issues"
+  },
+  "homepage": "https://github.com/hamza24v/Wordsearch#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "socket.io": "^4.7.4"
+  }
+}
